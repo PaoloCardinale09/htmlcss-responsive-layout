@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 0 1.5rem;
     color: white;
 }
 
@@ -51,9 +52,15 @@ header {
 
 /* MAIN 
     SECTION 1 */
-.col {
+
+.section-1 {
+    margin-bottom: 3rem;
+}
+
+.section-1>.col {
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section-1 .card {
@@ -90,4 +97,45 @@ header {
         width: 100%;
     }
 
+    .right-side {
+        width: 100%;
+    }
+}
+
+/* SECTION 2 */
+.section-2 {
+    background-color: #9792e4;
+    padding-bottom: 3rem;
+}
+
+.right-side-section2 {
+    margin-top: auto;
+}
+
+.section-2 .col {
+    gap: 4rem;
+}
+
+.card-section2 {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.card-section2>img {
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .section-2 .col {
+        flex-direction: column;
+    }
+
+    .left-side-section2 {
+        width: 100%;
+    }
+
+    .right-side-section2 {
+        width: 100%;
+    }
 }
