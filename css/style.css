@@ -231,10 +231,11 @@ header {
 }
 
 .right-side-section5 {
-    padding: 3rem;
+    flex-direction: column;
+    padding: 4rem 0 3rem 4rem;
 }
 
-.right-side-section5>img {
+.right-side-section5 img {
     width: 200px;
     border-radius: 50%;
     margin: 1rem 0;
@@ -247,3 +248,32 @@ header {
 .right-side-section5>button {
     margin: 1rem 0;
 }
+
+@media screen and (max-width: 480px) {
+
+    .left-side-section5,
+    .right-side-section5 {
+        width: 100%;
+    }
+}
+
+/* FOOTER
+    top footer */
+footer {
+    background-color: #9792e4;
+}
+
+.top-footer {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.top-footer ul {
+    margin: 0 auto;
+
+}
+
+.top-footer ul>li {
+    margin: 0 .2rem;

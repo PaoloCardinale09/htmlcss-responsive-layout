@@ -15,15 +15,21 @@
 }
 
 .container-small {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: 0 auto;
 	padding: 0 1rem;
 }
 
 .container-mini {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 1rem;
+}
+
+.container-xmini {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 1 rem;
 }
 
 .clearfix::after {
