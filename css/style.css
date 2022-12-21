@@ -139,3 +139,46 @@ header {
         width: 100%;
     }
 }
+
+/* SECTION 3
+    "testimolnials" */
+
+.section-3 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.card-section3 {
+    background-color: #9792e4;
+    color: white;
+    margin: 1rem 0;
+}
+
+.section-3>.text {
+    text-align: center;
+}
+
+.card-section3 img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 1rem;
+
+}
+
+.text-in-card {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+    .card-section3 {
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    .card-section3 img {
+        margin: 0 auto;
+    }
+}
