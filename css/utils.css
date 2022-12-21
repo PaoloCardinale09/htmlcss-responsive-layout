@@ -32,6 +32,12 @@
 	padding: 0 1 rem;
 }
 
+.container-xxmini {
+	width: 400px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
 .clearfix::after {
 	content: '';
 	clear: both;

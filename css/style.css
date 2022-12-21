@@ -277,3 +277,15 @@ footer {
 
 .top-footer ul>li {
     margin: 0 .2rem;
+}
+
+.bottom-footer {
+
+    color: white;
+
+    background-color: #333333;
+}
+
+.bottom-footer p {
+    padding: 2rem 0 1.5rem 0;
+}
