@@ -14,6 +14,12 @@ ul {
     list-style: none;
 }
 
+/* BODY */
+
+body {
+    line-height: 2rem;
+}
+
 /* HEADER */
 
 header {
@@ -211,4 +217,33 @@ header {
     .section-4 .card {
         width: 100%;
     }
+}
+
+/* SECTION 5
+    About Us */
+
+.section-5 {}
+
+.left-side-section5 {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 0;
+}
+
+.right-side-section5 {
+    padding: 3rem;
+}
+
+.right-side-section5>img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+.right-side-section5>h3 {
+    margin: 1rem 0;
+}
+
+.right-side-section5>button {
+    margin: 1rem 0;
 }
