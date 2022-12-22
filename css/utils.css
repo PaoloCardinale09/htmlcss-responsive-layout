@@ -48,6 +48,10 @@
 	display: flex;
 }
 
+.fd-column {
+	flex-direction: column;
+}
+
 .w-66 {
 	width: calc((100% / 3) * 2);
 }
