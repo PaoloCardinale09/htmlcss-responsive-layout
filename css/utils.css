@@ -49,11 +49,11 @@
 }
 
 .w-66 {
-	width: calc((100% / 3) * 2 - 1rem);
+	width: calc((100% / 3) * 2);
 }
 
 .w-33 {
-	width: calc(100% / 3 - 1rem);
+	width: calc(100% / 3);
 }
 
 .w-50 {
