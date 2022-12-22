@@ -69,6 +69,9 @@ header {
 
 /* MAIN 
     SECTION 1 */
+#section-1 {
+    margin-bottom: 5rem;
+}
 
 #section-1 .col {
     display: flex;
@@ -148,16 +151,16 @@ header {
     margin-bottom: 4rem;
 }
 
-#section-2 .left-side-section2 img {
+#section-2 .left-side img {
     margin-bottom: 8rem;
 }
 
 
-.left-side-section2 {
+.left-side {
     color: white;
 }
 
-.right-side-section2 {
+.right-side {
     margin-top: auto;
 }
 
@@ -165,12 +168,12 @@ header {
     gap: 4rem;
 }
 
-#section-2 .right-side-section2 p {
+#section-2 .right-side p {
     font-style: italic;
     text-align: center;
 }
 
-#section-2 .right-side-section2 span {
+#section-2 .right-side span {
     background-color: #9792e4;
     border-radius: 50%;
     width: 3rem;
@@ -211,10 +214,16 @@ header {
     background-color: #9792e4;
     color: white;
     margin: 1rem 0;
+    border-radius: 30px;
 }
 
 .section-3>.text {
     text-align: center;
+}
+
+.section-3 p>i {
+    font-size: 1.3rem;
+    margin: 0 .5rem;
 }
 
 .card-section3 img {
@@ -229,9 +238,26 @@ header {
 .text-in-card {
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 3rem;
 }
 
+.name {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
 
+.section-3 h3 {
+    font-size: 3rem;
+    color: #9792e4;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.text>p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
 
 /* SECTION 4
     Benefits */
@@ -396,6 +422,10 @@ footer {
 
     .card-section3 img {
         margin: 0 auto;
+    }
+
+    .name {
+        text-align: center;
     }
 
     /* SECTION 4 */
