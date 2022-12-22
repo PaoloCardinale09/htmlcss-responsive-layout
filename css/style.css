@@ -26,6 +26,10 @@ ul {
     padding: 1.5rem;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* BODY */
 
 body {
@@ -380,6 +384,7 @@ header {
     top footer */
 footer {
     background-color: #9792e4;
+    color: white;
 }
 
 .top-footer {
@@ -387,6 +392,35 @@ footer {
     gap: 2rem;
     text-align: center;
     padding: 2rem 0;
+}
+
+.top-footer span {
+    color: #cbc9f1;
+}
+
+.top-footer h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    margin-bottom: 3rem;
+}
+
+.top-footer h2 {
+    font-size: 6rem;
+    color: #fdc15f;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.top-footer .btn {
+    width: fit-content;
+    padding: 1.3rem 5rem;
+    color: #9792e4;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 50px;
+    align-self: center;
+
 }
 
 .top-footer ul {
